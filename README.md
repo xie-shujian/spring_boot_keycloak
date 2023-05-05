@@ -16,3 +16,18 @@ create the admin user and password
 ## login http://localhost:8080/admin/master/console/
 ## create test realm
 ![image](https://user-images.githubusercontent.com/1661052/236424081-fff85f3a-abeb-4370-977a-6fcaa3db9648.png)
+## use the test realm
+## create client id
+test
+## set client authentication to off
+off is public access, on is oidc
+## set redirect url to http://localhost:8081/*
+## set home url to http://localhost:8081
+## create two roles
+test-role and user-role
+## create user user1 and user2 and set password
+## role map
+map user-role to user1 and test-role to user2
+
+## refer
+https://blog.csdn.net/weixin_36380516/article/details/128731825
