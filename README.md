@@ -28,6 +28,13 @@ test-role and user-role
 ## create user user1 and user2 and set password
 ## role map
 map user-role to user1 and test-role to user2
-
+# case 1
+## create client testkeycloak
+## Set Valid redirect URIs to https://www.keycloak.org/app/*
+## Set Web origins to https://www.keycloak.org
+## open https://www.keycloak.org/app/
+change realm to test, client id to restkeycloak
+## sign in with user1 or urser2
+# case 2
 ## refer
 https://blog.csdn.net/weixin_36380516/article/details/128731825
